@@ -1,0 +1,38 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+body{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+h3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    filter:drop-shadow(2px 2px 1px #1991d7);
+    text-align: center;  
+}
+.center{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px, rebeccapurple;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; 
+    width:100vw;
+    height: 1080px;
+    align-items: stretch;
+}
+.container th {
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
